@@ -4,7 +4,7 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: "Femboy",
+        name: "femboy",
         aliases: [],
         description: "Delicious Femboys like Generic OwO~",
         usage: "",

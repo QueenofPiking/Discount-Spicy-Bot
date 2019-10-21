@@ -4,7 +4,7 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: "NekoGIF",
+        name: "nekogif",
         aliases: [],
         description: "GIFS OF CATGIRLS COMMIT NSFW ACTS!!!!",
         usage: "",

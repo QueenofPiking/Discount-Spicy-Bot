@@ -4,7 +4,7 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: "Eroneko",
+        name: "eroneko",
         aliases: [],
         description: "Eroneko shits for all!!!!!",
         usage: "",
