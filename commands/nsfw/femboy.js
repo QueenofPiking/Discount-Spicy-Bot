@@ -16,3 +16,5 @@ module.exports = {
 
         message.channel.send(hentai.url);
         return;
+    }
+}
