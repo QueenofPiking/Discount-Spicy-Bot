@@ -1,0 +1,16 @@
+{
+  "name": "discount-spicy-bot",
+  "version": "1.0.0",
+  "description": "Discount Spicy Bot for my Discount Ramen Shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Some sexually active 16 year old",
+  "license": "MIT",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "nekos.life": "^2.0.4"
+  }
+}
