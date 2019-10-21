@@ -4,7 +4,7 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: "Poke",
+        name: "poke",
         aliases: [],
         description: "Poke someone uwu~",
         usage: "(@user)",
@@ -17,7 +17,7 @@ module.exports = {
         if(huser){
             message.channel.send(`hey ${huser}, ${message.author} has poked you OwO \n${hugurl.url}`)
         } else {
-            message.channel.send(`${message.author}, WHY DID YOU FUCKING POKE ME YOU NI||CE GUY||`)
+            message.channel.send(`${message.author}, WHY DID YOU FUCKING POKE ME YOU NI||CE GUY||x`)
         }
 
     }
