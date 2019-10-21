@@ -4,15 +4,15 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: "Kuni",
+        name: "nsfwavatar",
         aliases: [],
-        description: "placeholder",
+        description: "Concerned",
         usage: "",
         category: "nsfw"
     },
     run: async(client, message, args) => {
         if(!message.channel.nsfw) return;
-        let hentai = await neko.nsfw.kuni();
+        let hentai = await neko.nsfw.avatar();
 
         message.channel.send(hentai.url);
         return;
