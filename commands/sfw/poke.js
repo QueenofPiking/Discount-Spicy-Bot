@@ -17,7 +17,7 @@ module.exports = {
         if(huser){
             message.channel.send(`hey ${huser}, ${message.author} has poked you OwO \n${hugurl.url}`)
         } else {
-            message.channel.send(`${message.author}, WHY DID YOU FUCKING POKE ME YOU NI||CE GUY||x`)
+            message.channel.send(`${message.author}, WHY DID YOU FUCKING POKE ME YOU NI||CE GUY||`)
         }
 
     }
