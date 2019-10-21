@@ -9,8 +9,7 @@ module.exports = {
     },
     run: async (client, message, args) => {
         await message.delete();
-        if(!message.member.hasPermssion("MANAGE_MESSAGES"))
-        return message.reply("I need the Manage Messages permission before I can utilize this command for all your totally not exploitive purposes!")
+        if(!message.member.hasPermssion("MANAGE_MESSAGES")) return message.reply("I need the Manage Messages permission before I can utilize this command for all your totally not exploitive purposes!")
         if(!args[0]) return message.reply("I need to know how many you want me to destroy!")
         if(args[0] >= 101) return message.reply ("The Discoridan Gods only allow me to delete up to 100 messages DEATH TO THE MPLA!");
 
