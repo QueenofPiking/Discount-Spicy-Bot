@@ -5,4 +5,4 @@ const config = require("./config.json");
 ["commands", "aliases"].forEach(x => client[x] = new Collection());
 ["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
 
-client.login(config.token)
+client.login(process.env.token);
