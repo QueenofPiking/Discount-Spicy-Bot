@@ -15,7 +15,7 @@ module.exports = {
         let huser = message.guild.member(message.mentions.users.first() ||  message.guild.members.get(args[0]));
 
         if(huser){
-            message.channel.send(`hey ${huser}, ${message.author} what the fuck\n${hugurl.url}`)
+            message.channel.send(`hey ${huser}, ${message.author} someone sent you this?\n${hugurl.url}`)
         } else {
             message.channel.send(`${message.author}, cuckold`)
         }
