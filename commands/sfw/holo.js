@@ -11,7 +11,7 @@ module.exports = {
         category: "general"
     },
     run: async(client, message, args) => {
-        let hugurl = await neko.sfw.hug();
+        let hugurl = await neko.sfw.holo();
         let huser = message.guild.member(message.mentions.users.first() ||  message.guild.members.get(args[0]));
 
         if(huser){
