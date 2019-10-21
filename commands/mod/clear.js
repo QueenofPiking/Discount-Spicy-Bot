@@ -14,7 +14,7 @@ module.exports = {
         if(args[0] >= 101) return message.reply ("The Discoridan Gods only allow me to delete up to 100 messages DEATH TO THE MPLA!");
 
         let number = args[0]
-        message.channel.bulkdelete(args[0]);
+        message.channel.bulkDelete(args[0]);
         message.reply(`cleared ${args[0]} messages! /nmessages older than 14 days old cannot be cleared`).then(msg => msg.delete(8000));
         
     }
