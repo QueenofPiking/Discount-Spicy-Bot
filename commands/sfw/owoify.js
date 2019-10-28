@@ -11,7 +11,7 @@ module.exports = {
     },
     run: async(client, message, args) => {
         let cum = args.join(" ");
-        let owo = await neko.sfw.OwOify({ text: cum });
+        let owo = await neko.sfw.OwOify({ text: `${cum}` });
         message.channel.send(owo);
         return; 
     }
