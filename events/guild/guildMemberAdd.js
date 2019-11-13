@@ -1,5 +1,5 @@
 module.exports = async (client, member) => {
-    const welcomechannel = member.guild.channel.find(x => x.name === "gatekeeper")
+    const welcomechannel = member.guild.channels.find(x => x.name === "gatekeeper")
     const role = member.guild.roles.find(x => x.name === "Peasant")
     if(!role) return;
     if(!welcomechannel) return;
