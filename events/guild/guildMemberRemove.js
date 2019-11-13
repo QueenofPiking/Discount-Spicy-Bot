@@ -4,7 +4,7 @@ module.exports = async (client, member) => {
     
     const messages = [
         `**${member.user.username}** left!`,
-        `**${member.user.username}** Has tried self CBT.`,
+        `**${member.user.username}** just got shot by Takaya!`,
         `**${member.user.username}** is gone!`,
         `**${member.user.username}** didn't suck off Daddy Jack!`,
         `**${member.user.username}** has been Suspended`,
