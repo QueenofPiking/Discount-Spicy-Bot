@@ -3,7 +3,7 @@ module.exports = async (client, member) => {
     const role = member.guild.roles.find(x => x.name === "Shujin Academy Student")
     if(!role) return;
     if(!welcomechannel) return;
-    welcomechannel.send(`Welcome to the Metaverse! ${member} Make sure to read the rules or you will be crushed by Mara! `)
+    welcomechannel.send(`Welcome to the Server! ${member} Make sure to read the rules or you will be hit by a Megidolaon! `)
     member.addRole(role.id);
     return;
 }
