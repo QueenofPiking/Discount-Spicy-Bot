@@ -13,7 +13,8 @@ module.exports = async (client, member) => {
         `**${member.user.username}** went to go solo the Reaper!`,
         `**${member.user.username}** challenged Strega`,
         `**${member.user.username}** found out what happens when you become Akihiko and inject straight protein into your blood stream`,
-        `**${member.user.username}** Got Arsene'd Aerialed  at 15%`
+        `**${member.user.username}** Got Arsene'd Aerialed  at 15%`,
+        `**${member.user.username}** Got the Persona 1 and Persona 2 treatment`
     ];
     
     if(!welcomeChannel) return;
