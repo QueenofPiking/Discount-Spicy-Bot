@@ -1,9 +1,9 @@
 module.exports = async (client, member) => {
-    const welcomechannel = member.guild.channels.find(x => x.name === "gatekeeper")
-    const role = member.guild.roles.find(x => x.name === "Shujin Academy Student")
+    var welcomechannel = member.guild.channels.find(x => x.name === "gatekeeper")
+    var role = member.guild.roles.find(x => x.name === "Shujin Academy Student")
     if(!role) return;
     if(!welcomechannel) return;
     welcomechannel.send(`Welcome to the Server! ${member} Make sure to read the rules or you will be hit by a Megidolaon! `)
-    member.addRole(role.id);
+    member.addRole(role);
     return;
 }
