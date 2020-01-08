@@ -8,7 +8,7 @@ module.exports = async (client, member) => {
         `**${member.user.username}** Went and pulled a Shinjiro!`,
         `**${member.user.username}** Fought the Indolent Maya!`,
         `**${member.user.username}** has been executed by Mitsuru!`,
-        `**${member.user.username}**, Was hit by a Mind Charge Black Viper!`,
+        `**${member.user.username}** Was hit by a Mind Charge Black Viper!`,
         `**${member.user.username}** Said P5 Was overrated`,
         `**${member.user.username}** went to go solo the Reaper!`,
         `**${member.user.username}** challenged Strega`,
