@@ -15,6 +15,7 @@ module.exports = async (client, member) => {
         `**${member.user.username}** found out what happens when you piss off Makoto Stans!`,
         `**${member.user.username}** Joined the SMT Fanbase!`,
         `**${member.user.username}** Got the Persona 1 and Persona 2 treatment!`
+        `**${member.user.username}** Got stored into the ATLUS Vault!`
     ];
     
     if(!welcomeChannel) return;
