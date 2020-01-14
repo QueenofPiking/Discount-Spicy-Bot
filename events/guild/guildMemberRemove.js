@@ -9,13 +9,14 @@ module.exports = async (client, member) => {
         `**${member.user.username}** Fought the Indolent Maya!`,
         `**${member.user.username}** has been executed by Mitsuru!`,
         `**${member.user.username}** Was hit by a Hassou Tobi!`,
-        `**${member.user.username}** Saw Shade post cropped Morgana Hentai`,
+        `**${member.user.username}** Saw Shade post cropped Morgana Hentai!`,
         `**${member.user.username}** went to go solo the Reaper!`,
         `**${member.user.username}** got hunted down by Strega!`,
         `**${member.user.username}** found out what happens when you piss off Makoto Stans!`,
         `**${member.user.username}** Tried to fight Demi-Fiend!`,
-        `**${member.user.username}** Got the Persona 1 and Persona 2 treatment!`
-        `**${member.user.username}** Got stored into the ATLUS Vault!`
+        `**${member.user.username}** Got the Persona 1 and Persona 2 treatment!`,
+        `**${member.user.username}** Got stored into the ATLUS Vault!`,
+        `**${member.user.username}** Saw Female Ren being horny on the timeline again!`
     ];
     
     if(!welcomeChannel) return;
