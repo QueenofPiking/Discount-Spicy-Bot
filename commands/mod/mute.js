@@ -11,9 +11,9 @@ module.exports = {
     },
     run: async (client, message, args) => {
         await message.delete();
-        let muted = message.guild.member(message.mentions.user.first() || message.guild.members.get(args[0]));
+        let muted = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
         if(!muted) return message.reply("Give a specific @ please!")
         if(muted.id === message.author.id) return message.reply(`Actually, Quantum Mechanics forbids this. ${picture}`);
-        
+
     }
 }
