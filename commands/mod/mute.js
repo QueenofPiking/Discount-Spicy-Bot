@@ -13,7 +13,9 @@ module.exports = {
         await message.delete();
         let muted = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
         if(!muted) return message.reply("Give a specific @ please!")
-        if(muted.id === message.author.id) return message.reply(`Actually, Quantum Mechanics forbids this. ${picture}`);
+        if(muted.id === message.author.id) return message.reply(`Actually, Quantum Mechanics forbids this.`, {
+            file: "https://i.kym-cdn.com/entries/icons/original/000/026/270/actually.jpg"
+        });
 
     }
 }
