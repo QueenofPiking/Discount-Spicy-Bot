@@ -3,7 +3,7 @@ module.exports = async (client, member) => {
     const welcomeChannel = member.guild.channels.find(x => x.name === "gatekeeper");
     
     const messages = [
-        `**${member.user.username}** Became Door-kun!~`,
+        `**${member.user.username}** Decided to became a Byleth Main!`,
         `**${member.user.username}** Attempted to best Nyarlathotep!`,
         `**${member.user.username}** Went and pulled a Shinjiro!`,
         `**${member.user.username}** Fought the Indolent Maya!`,
