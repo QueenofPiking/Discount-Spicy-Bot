@@ -9,7 +9,7 @@ module.exports = async (client, member) => {
         `**${member.user.username}** Fought the Indolent Maya!`,
         `**${member.user.username}** has been executed by Mitsuru!`,
         `**${member.user.username}** Was hit by a Hassou Tobi!`,
-        `**${member.user.username}** Saw Shade post cropped Morgana Hentai!`,
+        `**${member.user.username}** Rawr X3 *nuzzles* How are you? *pounces on you* you're so warm o3o *notices you have a bulge* someone's happy! *nuzzles your necky wecky* ~murr~ hehe ;) *rubbies your bulgy wolgy* you're so big! *rubbies more on your bulgy wolgy* it doesn't stop growing .///. *kisses you and licks your neck* daddy likes ;) *nuzzle wuzzle* I hope daddy likes *wiggles butt and squirms* I wanna see your big daddy meat!`,
         `**${member.user.username}** went to go solo the Reaper!`,
         `**${member.user.username}** got hunted down by Strega!`,
         `**${member.user.username}** found out what happens when you piss off Makoto Stans!`,
